@@ -3,6 +3,7 @@ body {
     padding: 0;
     font: 62.5%/18px Arial;
     background-color: #eee;
+    height: 1000px;
 }
 /* Header */
 header {
@@ -59,7 +60,7 @@ nav ul li a {
     align-items: center;
 }
 .main .hero {
-    width: 80%;
+    max-width: 80%;
     height: 50vh;
     display: flex;
     justify-content: space-between;
@@ -81,4 +82,12 @@ nav ul li a {
 }
 .main .img-hero img {
     border-radius: 50%;
+}
+/* Mys skill */
+section.skill {
+    border: 1px solid black;
+}
+section.skill h2 {
+    font-size: 3rem;
+    text-align: center;
 }
